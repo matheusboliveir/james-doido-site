@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT",
+    "dev": "next",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "next": "^9.5.2",
