@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start -p $PORT",
     "dev": "next",
-    "heroku-postbuild": "babel src -d lib"
+    "heroku-postbuild": "next build"
   },
   "dependencies": {
     "next": "^9.5.2",
