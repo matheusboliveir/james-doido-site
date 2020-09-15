@@ -1,0 +1,29 @@
+.containerTapes {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.bgTapes {
+  width: 100vw;
+  max-height: 100vh;
+  object-fit: scale-down;
+  position: absolute;
+  user-select: none;
+}
+
+.tape {
+  width: 9vw;
+  max-height: 90vh;
+  z-index: 2;
+  object-fit: contain;
+  cursor: pointer;
+  transition: margin-bottom 0.3s;
+}
+
+.tape:hover {
+  margin-bottom: 10vh;
+  transition: margin-bottom 1s;
+}

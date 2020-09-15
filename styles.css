@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Portico';
+  src: url('./assets/fonts/Portico_Rough.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to right, #161625 , #4f4d61);
+}
+
+.brick {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: calc(25vh * 2);
+  max-height: 25vw;
+  object-fit: contain;
+  align-content: right;
+  user-select: none;
+}

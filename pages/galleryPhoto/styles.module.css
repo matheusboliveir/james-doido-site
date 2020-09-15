@@ -1,0 +1,15 @@
+.containerPhotos {
+  width: 100%;
+  height: calc(100vh - 50px);
+  background: linear-gradient(to right, #161625 , #4f4d61);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.containerPhotos h1 {
+  padding-bottom: 4vh;
+  color: #fff;
+  font: 9vh Portico;
+}

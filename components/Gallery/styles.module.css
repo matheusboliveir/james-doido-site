@@ -1,0 +1,60 @@
+.photo {
+  object-fit: contain;
+  margin: 0 5%;
+  width: 90%;
+  height: 60vh;
+  image-rendering: optimizeSpeed;
+  border: 2px #ffffff solid;
+  border-radius: 5px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.poster {
+  object-fit: cover;
+  height: 60vh;
+  margin-right: 30px;
+  image-rendering: optimizeSpeed;
+  border: 2px #ffffff solid;
+  border-radius: 5px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.containerGallery {
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.arrowLeft {
+  transform: rotate(180deg);
+}
+
+.arrowRight , .arrowLeft {
+  width: 10%;
+  object-fit: scale-down;
+  cursor: pointer;
+}
+
+.containerImages {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  max-width: 1600px;
+}
+
+.fullImg {
+  image-rendering: optimizeQuality;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 4vh 0;
+  object-fit: contain;
+  background: #000000e1;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "james-doido-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.5.2",
+    "next-images": "^1.4.1",
+    "nprogress": "^0.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-lazy-load-image-component": "^1.5.0",
+    "react-player": "^2.6.2",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,84 @@
+.containerPlayer {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgPlayer {
+  max-width: 100vw;
+  max-height: 100vh;
+  object-fit: scale-down;
+  position: fixed;
+  user-select: none;
+}
+
+.buttonsPlayer {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonsPlayer img {
+  width: 5.16vw;
+  object-fit: scale-down;
+  height: 5vh;
+  max-width: calc(5vh * 1.257);
+  max-height: calc(5.16vw / 1.257);
+  cursor: pointer;
+}
+
+.buttonsPlayer img:active {
+  opacity: 0.6;
+}
+
+.buttonsPlayer input[type=range] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50px;
+  height: 1vh;
+  border-radius: 5px;
+  align-self: center;
+  justify-self: center;
+  background-color:#787f81;
+  outline: none;
+}
+
+.buttonsPlayer input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #474747;
+  height: 1vh;
+  width: 1vw;
+  border-radius: 2px;
+  background: #636363;
+  cursor: pointer;
+}
+
+.buttonsPlayer input[type=range]::-moz-range-thumb {
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.buttonsPlayer input[type=range]::-ms-thumb {
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (min-height:72vw ) {
+  .containerPlayer {
+    background: url('../../assets/images/shelfBG.png') repeat center;
+    background-size: contain;
+  }
+}
