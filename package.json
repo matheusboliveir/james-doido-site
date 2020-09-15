@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start -p $PORT",
     "dev": "next",
-    "heroku-postbuild": "next build"
+    "heroku-postbuild": "yarn build"
   },
   "dependencies": {
     "next": "^9.5.2",
