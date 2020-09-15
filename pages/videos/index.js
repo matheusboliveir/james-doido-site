@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Link  from 'next/link';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-import bgTapes from '../../assets/images/shelftop.png';
+import bgTapes from '../../assets/images/shelfTop.png';
 
 import Header from '../../components/Header';
 import styles from './styles.module.css';
