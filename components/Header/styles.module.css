@@ -12,7 +12,7 @@
 
 .logoHead {
   height: 40px;
-  object-fit: scale-down;
+  object-fit: contain;
   filter: invert(1);
 }
 

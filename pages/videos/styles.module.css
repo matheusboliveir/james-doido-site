@@ -9,7 +9,7 @@
 .bgTapes {
   width: 100vw;
   max-height: 100vh;
-  object-fit: scale-down;
+  object-fit: contain;
   position: absolute;
   user-select: none;
 }
